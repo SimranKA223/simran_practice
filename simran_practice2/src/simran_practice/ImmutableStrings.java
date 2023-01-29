@@ -36,7 +36,7 @@ public class ImmutableStrings {
 		System.out.println("s2: " + sb);
 		
 		//mutable string: using string builder
-		
+	
 		StringBuilder s = new StringBuilder("Hello ");
 		s.append("Simran");
 		System.out.println("s3: " + s);
