@@ -9,6 +9,11 @@ package simran_practice;
  2)create a static object inside a class.
  3)getInstance function:-It is a static method. Static method can only access static members i.e the object.
    can be accessed outside the class without creating objects.
+   
+   
+   Working:-
+   st has reference to the address of an object created in memory.
+   in main function we do not create a new object but rather a reference variable that is pointing towards the only created object's address.
  
  */
 
