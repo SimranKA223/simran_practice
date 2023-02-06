@@ -6,4 +6,5 @@
  *
  */
 module simran_practice {
+	requires jdk.compiler;
 }
