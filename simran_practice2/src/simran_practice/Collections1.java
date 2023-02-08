@@ -27,11 +27,13 @@ public class Collections1 {
 		}
 		System.out.println();
 		
-		ArrayList<Integer> l = new ArrayList<>();
-		l.add(1);
+		ArrayList<Integer> l = new ArrayList<Integer>();
+		l.add(4);
 		l.add(2);
-		l.add(3);
+		l.add(5);
 		l.remove(2);
+		l.add(1);
+		
 		
 		
 		System.out.println(l);
@@ -41,6 +43,24 @@ public class Collections1 {
 			System.out.print(it.next()+" ");
 		}
 		System.out.println();
+		
+		//reversing a arraylist
+		Collections.sort(l);
+		
+		System.out.println(l);
+		
+		//replacing arraylist elements
+		
+		ArrayList<String> colors=new ArrayList<>();
+		colors.add("RED");
+		colors.add("BLUE");
+		colors.add("GREEN");
+		
+		System.out.println(colors);
+		colors.set(1, "ORANGE");
+		System.out.println(colors);
+		
+		
 		/*
 		 ArrayLists and vectors both implement list interface.
 		 
@@ -67,7 +87,7 @@ public class Collections1 {
       linked list is faster in manipulation 
       */
         
-        LinkedList<String> st = new LinkedList<String>();
+        LinkedList<String> st = new LinkedList<>();
 
         st.add("A");
         st.add("B");
