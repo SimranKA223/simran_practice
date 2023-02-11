@@ -31,7 +31,6 @@ public class ArrayListExample2 {
 	public static void main(String[] args) {
 		
 		Thread1 t1=new Thread1();
-		
 		Threadd2 t2 = new Threadd2();
 		t2.start();
 		t1.start();
